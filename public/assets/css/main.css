@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding-top: 76px; /* Adjust the value based on your navbar height */
+  }
+nav div a span{
+    color: #ed6436;
+}
+.navbar-brand{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1 rem !important;
+    font-weight: 700;
+}
+.navbar-nav{
+    padding-left: .8rem !important;
+    font-weight: 700;
+    font-size: 1 rem;
+    margin-top: .7rem;
+    font-family: 'Nunito', sans-serif;
+}
+a:hover{
+    color: #ed6436 !important;
+}
+.nav-item{
+    margin-left: 20px;
+}
+/* Set image size to 20px */
+img.img-fluid {
+    width: 200px;
+    margin-left: 70px;
+}
+/* Style for user icon */
+.user-icon {
+    color: white; /* Set the color as needed */
+    font-size: 20px;
+    margin-left: auto; /* Push the icon to the right */
+    margin-right: 70px;
+    display: flex;
+    align-items: center;
+}
+/* Hide image on mobile devices */
+@media (max-width: 767px) {
+    img.img-fluid {
+        display: none;
+    }
+    .user-icon {
+        margin-right: 10px;
+    }
+}
+/* h1, h2, h3, h4, h5, h6{
+    font-family: 'Nunito', sans-serif;
+} */
+.carousel-caption{
+    bottom: 22.25rem !important;
+}
+.carousel-h1{
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+.form-about{
+    padding: 0 6% !important;
+    background-color: #F2F2F4 !important;
+}
+.form-margin{
+    margin: 10% 0 10% 10%;
+    width: 80% !important;
+}
+.col-sm-4{
+    background-color: #ed6436;
+}
+.spannn, .boarding, .premium, .orangee{
+    color: #01AFB0 !important;
+}
+.greenn{
+    color: #65c178 !important;;
+}
+.col-right{
+    font-size: 3.5rem;
+    font-weight: 800 !important;
+}
+.font-green, .about-us, .daycare, .our-services, .feature{
+    color: #01AFB0 !important;
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+}
+.iconns{
+    color: #65C178 ;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0.5rem;
+}
+.about-h1, .service-h1, .feature-h1{
+    font-size: 3.5rem !important;
+    font-weight: 900 !important;
+}
+.btn-primary{
+    border: #01AFB0 !important;
+    background-color: #01AFB0 !important;
+    color: white !important;
+}
+.btn-primary:hover{
+    color: #fff !important;
+    background-color: #e84a15 !important;
+    border-color: #dc4614 !important;
+}
+.tick{
+    color: #65C178 ;
+    font-weight: 500;
+    margin: 0.5rem;
+}
+.images-icon{
+    max-width: 5rem;
+}
+.read-more{
+    text-decoration: none;
+    font-weight: 600;
+    color: #e84a15;
+}
+.read-more:hover{
+    color: #dc4614;
+}
+.green-btn{
+    background-color: #46ad5b !important;
+    color: black !important;
+}
+.green-btn:hover{
+    background-color: #4ab660 !important;
+    color: #fff !important;
+}
+.details{
+    height: 5.938rem;
+}
+.teammm{
+    height: 3.125rem;
+}
+.btn-outline-primary{
+    border: 1px solid #dc4614 !important;
+    color: #dc4614 !important;
+    margin: 0 .3rem;
+}
+.btn-outline-primary:hover{
+    background-color: #dc4614 !important;
+    color: white !important;
+}
+.carddd{
+    background-color: #F2F2F4 !important;
+}
+.bloggg{
+    background-color: #f2f2f4 !important;
+    padding: 0 7% !important;
+    color: black;
+}
+.card-img-top {
+    max-width: 300px;
+    display: block; /* Ensure the image is treated as a block element */
+    margin-left: auto; /* Set left margin to auto */
+    margin-right: auto; /* Set right margin to auto */
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+.service-card {
+    height: 100%; /* Set a fixed height for the card container */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.toggleButton {
+    background-color: white;
+    color: #ed6436;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 1000;
+
+}
+.custom-card {
+    height: 100%; /* You can adjust the height as needed */
+}
+/*
+* Content
+******************************************************************************/
+
+.demo-blocks > * {
+    display: block !important;
+  }
+  
+  .demo-inline-spacing > * {
+    margin: 1rem 0.375rem 0 0 !important;
+  }
+  
+  /* ? .demo-vertical-spacing class is used to have vertical margins between elements. To remove margin-top from the first-child, use .demo-only-element class with .demo-vertical-spacing class. For example, we have used this class in forms-input-groups.html file. */
+  .demo-vertical-spacing > * {
+    margin-top: 1rem !important;
+    margin-bottom: 0 !important;
+  }
+  .demo-vertical-spacing.demo-only-element > :first-child {
+    margin-top: 0 !important;
+  }
+  
+  .demo-vertical-spacing-lg > * {
+    margin-top: 1.875rem !important;
+    margin-bottom: 0 !important;
+  }
+  .demo-vertical-spacing-lg.demo-only-element > :first-child {
+    margin-top: 0 !important;
+  }
+  
+  .demo-vertical-spacing-xl > * {
+    margin-top: 5rem !important;
+    margin-bottom: 0 !important;
+  }
+  .demo-vertical-spacing-xl.demo-only-element > :first-child {
+    margin-top: 0 !important;
+  }
+  
+  .rtl-only {
+    display: none !important;
+    text-align: left !important;
+    direction: ltr !important;
+  }
+  
+  [dir='rtl'] .rtl-only {
+    display: block !important;
+  }
+  .input-group .form-control {
+    border-radius: 0;
+}
+
+.input-group .btn {
+    border-radius: 0 4px 4px 0;
+}
+.navbar-nav .nav-item.active a {
+    color: black !important;
+}
+.active {
+    color: black !important;
+}
