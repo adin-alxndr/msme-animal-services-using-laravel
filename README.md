@@ -114,7 +114,7 @@ Daftar reservasi hotel kucing yang telah disetujui beserta detail kamar, pengant
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/your-username/anabulcom.git
+git clone https://github.com/adin-alxndr/msme-animal-services-using-laravel.git
 cd anabulcom
 ```
 
